@@ -16,7 +16,7 @@ public class AccountService {
     private final PasswordEncoder passwordEncoder;
     private final RoleDao roleDao;
     public void singUp(Supplier supplier){
-        Role role=roleDao.findRoleByRoleName("ROLE_USER")
+        Role role=roleDao.findRoleByRoleName("ROLE_ADMIN")
                         .orElseThrow(EntityNotFoundException::new);
         supplier.addRole(role);
         supplier.setPassword(passwordEncoder.encode(supplier.getPassword()));
