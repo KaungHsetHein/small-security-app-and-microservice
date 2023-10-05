@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Batch-6.iml" filepath="$PROJECT_DIR$/.idea/Batch-6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/auth-server-demo/auth-server-demo.iml" filepath="$PROJECT_DIR$/auth-server-demo/auth-server-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-app-demo/business-app-demo.iml" filepath="$PROJECT_DIR$/business-app-demo/business-app-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/method-security/method-security.iml" filepath="$PROJECT_DIR$/method-security/method-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permissiion-evaluator/permissiion-evaluator.iml" filepath="$PROJECT_DIR$/permissiion-evaluator/permissiion-evaluator.iml" />
+    </modules>
+  </component>
+</project>
