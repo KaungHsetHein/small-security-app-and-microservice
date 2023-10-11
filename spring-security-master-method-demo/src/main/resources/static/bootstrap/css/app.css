@@ -1,0 +1,54 @@
+.navbar{
+    font-family: 'Merriweather', serif !important;
+    font-weight: 100 !important;
+    background-color: lavender !important;
+    color: darkblue !important;
+}
+#myNav .fas{
+    font-size: 20px;
+}
+
+#logo{
+    font-family: 'Dancing Script' ,'cursive';
+    background: url("../../images/book.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    object-position: bottom;
+}
+
+#bestsellers{
+    font-family: "Dancing Script", cursive;
+}
+
+#bestsellers .card-img-top{
+    height: 378px !important;
+}
+
+#details .image-size{
+    height: 378px;
+}
+#details.image-container{
+    width: 60%;
+    height: 60px;
+    overflow: hidden;
+}
+#details.button{
+
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    background: lightblue;
+    color: white;
+    text-decoration: none;
+}
+#details.light-green{
+    background: lightgreen;
+}
+#details.lavender{
+   background: lavender;
+}
+
+#details.light-cyan{
+    background: skyblue;
+}

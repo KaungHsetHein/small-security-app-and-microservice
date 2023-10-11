@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: address-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/bootcamp6
+    username: root
+    password: kyaw549235
+  jpa:
+    hibernate:
+      ddl-auto: none
+server:
+  port: 0
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8083/eureka

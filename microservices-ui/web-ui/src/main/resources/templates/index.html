@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html th:replace="layout/masterLayout :: layout(~{::main})" lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<body>
+<main role="main">
+  <div class="container mt-5">
+    <div class="mb-3">
+      <a th:href="@{/web-ui/addresses}" class="btn btn-primary me-3">Addresses</a>
+      <a th:href="@{/web-ui/employees}" class="btn btn-info">Employees</a>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="card">
+           <h4 class="card-header">Addresses</h4>
+           <table class="table table-striped">
+              <thead>
+              <tr>
+                <th>Id</th>
+                <th>Street Name</th>
+                <th>State</th>
+                <th>City</th>
+              </tr>
+              </thead>
+             <tbody>
+             <tr th:each="add : ${addresses}">
+               <td th:text="${add.id}"></td>
+               <td th:text="${add.streetName}"></td>
+               <td th:text="${add.state}"></td>
+               <td th:text="${add.city}"></td>
+             </tr>
+             </tbody>
+           </table>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <h4 class="card-header">Employees</h4>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Email</th>
+                <th>Salary</th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr th:each="emp :${employees}">
+              <td th:text="${emp.id}"></td>
+              <td th:text="${emp.firstName}"></td>
+              <td th:text="${emp.lastName}"></td>
+              <td th:text="${emp.email}"></td>
+              <td th:text="${emp.salary}"></td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+</main>
+</body>
+</html>

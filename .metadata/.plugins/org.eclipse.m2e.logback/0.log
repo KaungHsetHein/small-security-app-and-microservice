@@ -1,0 +1,30 @@
+2023-10-05 23:48:16,284 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-06 00:01:29,072 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-09 12:07:32,385 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-10-09 12:10:37,942 [Worker-13: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jdc:members-api:0.0.1-SNAPSHOT @ C:\Users\user\git\weekdays-202304\weekdays-202304\final-project\members-api\pom.xml.
+2023-10-09 12:10:41,341 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-09 12:10:41,392 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-10-09 12:10:41,406 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\git\weekdays-202304\weekdays-202304\final-project\members-api\src\test\resources
+2023-10-09 12:12:54,380 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-09 12:12:54,385 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-10-09 12:12:54,397 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\git\weekdays-202304\weekdays-202304\final-project\members-api\src\test\resources
+2023-10-09 12:34:23,762 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 17.0.8.1+1
+2023-10-09 12:34:23,835 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-10-09 12:34:23,904 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@484e79b2{/help,null,AVAILABLE}
+2023-10-09 12:34:23,944 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@228590f1{HTTP/1.1, (http/1.1)}{127.0.0.1:56888}
+2023-10-09 12:34:23,974 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@3ed4d20c{STARTING}[10.0.15,sto=0] @1632623ms
+2023-10-09 15:12:46,003 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@3ed4d20c{STOPPING}[10.0.15,sto=0]
+2023-10-09 15:12:46,023 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@228590f1{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-10-09 15:12:46,038 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@484e79b2{/help,null,STOPPED}
+2023-10-09 17:11:35,694 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-09 17:15:03,191 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.15; built: 2023-04-11T17:25:14.480Z; git: 68017dbd00236bb7e187330d7585a059610f661d; jvm 21+35-LTS-2513
+2023-10-09 17:15:03,266 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-10-09 17:15:03,324 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@2a3ef759{/help,null,AVAILABLE}
+2023-10-09 17:15:03,355 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@c62b301{HTTP/1.1, (http/1.1)}{127.0.0.1:61025}
+2023-10-09 17:15:03,380 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@772a1957{STARTING}[10.0.15,sto=0] @242513ms
+2023-10-09 17:15:59,326 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-10-09 17:15:59,358 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-10-09 17:15:59,371 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\git\weekdays-202304\weekdays-202304\final-project\members-api\src\test\resources
+2023-10-09 17:17:03,136 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@772a1957{STOPPING}[10.0.15,sto=0]
+2023-10-09 17:17:03,147 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@c62b301{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-10-09 17:17:03,160 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2a3ef759{/help,null,STOPPED}

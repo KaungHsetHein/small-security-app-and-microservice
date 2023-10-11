@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" th:fragment="layout(main)" xmlns:th="http://www.thymeleaf.org"
+xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="../../static/bootstrap/css/bootstrap.min.css"
+  th:href="@{/bootstrap/css/bootstrap.min.css}">
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" th:href="@{/}">Spring Security</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse"
+                data-target="#myNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul id="myNav" class="collapse navbar-collapse mb-1 me-auto">
+            <li class="navbar-nav">
+                <a th:href="@{/}" class="nav-link">Home</a>
+            </li>
+            <li class="navbar-nav">
+                <a th:href="@{/customer/list-customers}" class="nav-link">Customers</a>
+            </li>
+            <li class="navbar-nav">
+                <a th:href="@{/department/list-departments}" class="nav-link">Department</a>
+            </li>
+            <li class="navbar-nav">
+                <a th:href="@{/employee/list-employees}" class="nav-link">Employee</a>
+            </li>
+        </ul>
+        <div sec:authorize="!isAuthenticated()">
+            <a th:href="@{/login}" class="btn btn-link">Login</a>
+        </div>
+        <div sec:authorize="isAuthenticated()">
+            <a th:href="@{/account}" class="btn btn-link me-3">Account</a>
+            <a href="javascript:document.logoutForm.submit()">Logout</a>
+            <form th:action="@{/logout}" th:hidden="true" method="post" name="logoutForm">
+                <input type="submit" value="submit" hidden="hidden" >
+            </form>
+        </div>
+    </div>
+</nav>
+<div th:replace="${main}"></div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+</body>
+</html>
